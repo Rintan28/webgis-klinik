@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-     <title>Klinik 24 Jam Jakarta</title>
-<!--
+     <title>Care Map - Klinik 24 Jam Jakarta</title>
+     <!--
 
 Template 2098 Health
 
@@ -22,11 +23,17 @@ http://www.tooplate.com/view/2098-health
      <link rel="stylesheet" href="css/animate.css">
      <link rel="stylesheet" href="css/owl.carousel.css">
      <link rel="stylesheet" href="css/owl.theme.default.min.css">
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+     <link rel="icon" type="image/png" href="images/logo nobg.png">
+
+
 
      <!-- MAIN CSS -->
      <link rel="stylesheet" href="css/tooplate-style.css">
 
+
 </head>
+
 <body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
      <!-- PRE LOADER -->
@@ -34,7 +41,7 @@ http://www.tooplate.com/view/2098-health
           <div class="spinner">
 
                <span class="spinner-rotate"></span>
-               
+
           </div>
      </section>
 
@@ -51,15 +58,16 @@ http://www.tooplate.com/view/2098-health
                     </button>
 
                     <!-- lOGO TEXT HERE -->
-                    <img src="images/logo nobg.png" alt="Logo WebGIS Klinik 24 Jam" href="index.html" class="logo">Care Map</img>
+                    <img src="images/logo nobg.png" alt="Logo WebGIS Klinik 24 Jam" href="index.html" class="logo">Care
+                    Map</img>
                </div>
 
                <!-- MENU LINKS -->
                <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
                          <li><a href="#top" class="smoothScroll">Home</a></li>
-                         <li><a href="#top" class="smoothScroll">About Us</a></li>
-                         <li class="appointment-btn"><a href="#google-map">Lihat Klinik</a></li>
+                         <li><a href="about.html" class="smoothScroll">About Us</a></li>
+                         <li class="appointment-btn"><a href="#webgis-klinik">Lihat Klinik</a></li>
                     </ul>
                </div>
 
@@ -72,37 +80,39 @@ http://www.tooplate.com/view/2098-health
           <div class="container">
                <div class="row">
 
-                         <div class="owl-carousel owl-theme">
-                              <div class="item item-first">
-                                   <div class="caption">
-                                        <div class="col-md-offset-1 col-md-10">
-                                             <h3>Klinik 24 Jam di Seluruh Penjuru Kota!</h3>
-                                             <h1>Health Living</h1>
-                                             <a href="#team" class="section-btn btn btn-default smoothScroll">About Us</a>
-                                        </div>
-                                   </div>
-                              </div>
-
-                              <div class="item item-second">
-                                   <div class="caption">
-                                        <div class="col-md-offset-1 col-md-10">
-                                             <h3>Temukan Klinik Favoritmu Disini!</h3>
-                                             <h1>New Lifestyle</h1>
-                                             <a href="#about" class="section-btn btn btn-default btn-gray smoothScroll">About Us</a>
-                                        </div>
-                                   </div>
-                              </div>
-
-                              <div class="item item-third">
-                                   <div class="caption">
-                                        <div class="col-md-offset-1 col-md-10">
-                                             <h3>Bingung Cari Klinik 24 Jam di Jakarta? Health Care Solusinya!</h3>
-                                             <h1>Your Health Benefits</h1>
-                                             <a href="#news" class="section-btn btn btn-default btn-blue smoothScroll">About Us</a>
-                                        </div>
+                    <div class="owl-carousel owl-theme">
+                         <div class="item item-first">
+                              <div class="caption">
+                                   <div class="col-md-offset-1 col-md-10">
+                                        <h3>Klinik 24 Jam di Seluruh Penjuru Kota!</h3>
+                                        <h1>Health Living</h1>
+                                        <a href="about.html" class="section-btn btn btn-default smoothScroll">About Us</a>
                                    </div>
                               </div>
                          </div>
+
+                         <div class="item item-second">
+                              <div class="caption">
+                                   <div class="col-md-offset-1 col-md-10">
+                                        <h3>Temukan Klinik Favoritmu Disini!</h3>
+                                        <h1>New Lifestyle</h1>
+                                        <a href="about.html" class="section-btn btn btn-default btn-gray smoothScroll">About
+                                             Us</a>
+                                   </div>
+                              </div>
+                         </div>
+
+                         <div class="item item-third">
+                              <div class="caption">
+                                   <div class="col-md-offset-1 col-md-10">
+                                        <h3>Bingung Cari Klinik 24 Jam di Jakarta? Health Care Solusinya!</h3>
+                                        <h1>Your Health Benefits</h1>
+                                        <a href="about.html" class="section-btn btn btn-default btn-blue smoothScroll">About
+                                             Us</a>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
 
                </div>
           </div>
@@ -118,12 +128,14 @@ http://www.tooplate.com/view/2098-health
                          <div class="about-info">
                               <h2 class="wow fadeInUp" data-wow-delay="0.6s">Selamat Datang di Care Map</h2>
                               <div class="wow fadeInUp" data-wow-delay="0.8s">
-                                   <p>Care Map adalah WebGIS yang membantu kamu menemukan klinik 24 jam terdekat dengan cepat dan akurat.</p>
-                                   <p>Lihat lokasi di peta, cek informasi penting (alamat, jam layanan, kontak), dan pilih rute terbaik untuk sampai ke tujuan.</p>
+                                   <p>Care Map adalah WebGIS yang membantu kamu menemukan klinik 24 jam terdekat dengan
+                                        cepat dan akurat.</p>
+                                   <p>Lihat lokasi di peta, cek informasi penting (alamat, jam layanan, kontak), dan
+                                        pilih rute terbaik untuk sampai ke tujuan.</p>
                               </div>
                          </div>
                     </div>
-                    
+
                </div>
           </div>
      </section>
@@ -221,11 +233,11 @@ http://www.tooplate.com/view/2098-health
                     </div>
 
                     <div class="col-md-6 col-sm-6"> -->
-                         <!-- CONTACT FORM HERE -->
-                         <!-- <form id="appointment-form" role="form" method="post" action="#"> -->
+     <!-- CONTACT FORM HERE -->
+     <!-- <form id="appointment-form" role="form" method="post" action="#"> -->
 
-                              <!-- SECTION TITLE -->
-                              <!-- <div class="section-title wow fadeInUp" data-wow-delay="0.4s">
+     <!-- SECTION TITLE -->
+     <!-- <div class="section-title wow fadeInUp" data-wow-delay="0.4s">
                                    <h2>Make an appointment</h2>
                               </div>
 
@@ -270,17 +282,50 @@ http://www.tooplate.com/view/2098-health
           </div>
      </section> -->
 
-
+<br><br><br>
      <!-- GOOGLE MAP -->
-     <section id="google-map">
+     <!-- ====== WEBGIS KLINIK 24 JAM ====== -->
+     <section id="webgis-klinik" class="container py-5">
+          <div class="row g-4">
+               <div class="col-lg-8">
+                    <div id="mapKlinik" style="height: 520px; width: 100%; border-radius: 12px;"></div>
+                    <div id="statusKlinik" class="small text-muted mt-2"></div>
+               </div>
+
+               <div class="col-lg-4">
+                    <form id="filterFormKlinik" class="mb-3">
+                         <input id="qKlinik" class="form-control mb-2" placeholder="Cari nama / alamat klinik..." />
+                         <br>
+                         <select id="wilayahKlinik" class="form-select mb-2">
+                              <option value="">Semua wilayah (DKI Jakarta)</option>
+                              <option value="Jakarta Pusat">Jakarta Pusat</option>
+                              <option value="Jakarta Barat">Jakarta Barat</option>
+                              <option value="Jakarta Selatan">Jakarta Selatan</option>
+                              <option value="Jakarta Timur">Jakarta Timur</option>
+                              <option value="Jakarta Utara">Jakarta Utara</option>
+                         </select>
+
+                         <button class="btn" style="background-color: #a5c422; color: #ffff;" type="submit">Terapkan Filter</button>
+                         <button class="btn btn-outline-secondary w-100 mt-2" type="button" id="btnLokasiSaya">
+                              Gunakan Lokasi Saya
+                         </button>
+                    </form>
+
+                    <div id="clinicList" class="list-group" style="max-height: 520px; overflow: auto;"></div>
+               </div>
+          </div>
+     </section>
+     <!-- ====== /WEBGIS KLINIK 24 JAM ====== -->
+
+     <!-- <section id="google-map"> -->
      <!-- How to change your own map point
             1. Go to Google Maps
             2. Click on your location point
             3. Click "Share" and choose "Embed map" tab
             4. Copy only URL and paste it within the src="" field below
 	-->
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3647.3030413476204!2d100.5641230193719!3d13.757206847615207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf51ce6427b7918fc!2sG+Tower!5e0!3m2!1sen!2sth!4v1510722015945" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-     </section>           
+     <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3647.3030413476204!2d100.5641230193719!3d13.757206847615207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf51ce6427b7918fc!2sG+Tower!5e0!3m2!1sen!2sth!4v1510722015945" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+     </section>            -->
 
 
      <!-- NEWS -->
@@ -291,27 +336,19 @@ http://www.tooplate.com/view/2098-health
                     <div class="col-md-12 col-sm-12">
                          <!-- SECTION TITLE -->
                          <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
-                              <h2>Latest News</h2>
+                              <h2>Info Aplikasi</h2>
                          </div>
                     </div>
 
                     <div class="col-md-4 col-sm-6">
                          <!-- NEWS THUMB -->
                          <div class="news-thumb wow fadeInUp" data-wow-delay="0.4s">
-                              <a href="news-detail.html">
-                                   <img src="images/news-image1.jpg" class="img-responsive" alt="">
+                              <a href="#">
+                                   <img src="images/klinik.jpg" class="img-responsive" alt="">
                               </a>
                               <div class="news-info">
-                                   <span>March 08, 2018</span>
-                                   <h3><a href="news-detail.html">About Amazing Technology</a></h3>
-                                   <p>Maecenas risus neque, placerat volutpat tempor ut, vehicula et felis.</p>
-                                   <div class="author">
-                                        <img src="images/author-image.jpg" class="img-responsive" alt="">
-                                        <div class="author-info">
-                                             <h5>Jeremie Carlson</h5>
-                                             <p>CEO / Founder</p>
-                                        </div>
-                                   </div>
+                                   <h3><a href="#">Cari Klinik 24 Jam Terdekat</a></h3>
+                                   <p>Care Map dibuat untuk membantu pengguna menemukan klinik 24 jam di wilayah DKI Jakarta, melihat informasi klinik, dan mendapatkan rute menuju lokasi.</p>
                               </div>
                          </div>
                     </div>
@@ -319,20 +356,12 @@ http://www.tooplate.com/view/2098-health
                     <div class="col-md-4 col-sm-6">
                          <!-- NEWS THUMB -->
                          <div class="news-thumb wow fadeInUp" data-wow-delay="0.6s">
-                              <a href="news-detail.html">
-                                   <img src="images/news-image2.jpg" class="img-responsive" alt="">
+                              <a href="#">
+                                   <img src="images/fitur.jpg" class="img-responsive" alt="">
                               </a>
                               <div class="news-info">
-                                   <span>February 20, 2018</span>
-                                   <h3><a href="news-detail.html">Introducing a new healing process</a></h3>
-                                   <p>Fusce vel sem finibus, rhoncus massa non, aliquam velit. Nam et est ligula.</p>
-                                   <div class="author">
-                                        <img src="images/author-image.jpg" class="img-responsive" alt="">
-                                        <div class="author-info">
-                                             <h5>Jason Stewart</h5>
-                                             <p>General Director</p>
-                                        </div>
-                                   </div>
+                                   <h3><a href="#">Fitur Pencarian, Filter, dan Highlight</a></h3>
+                                   <p>Gunakan kolom pencarian dan filter wilayah untuk menampilkan klinik sesuai kebutuhan. Klik marker atau daftar klinik untuk highlight permanen dan membuka detail klinik.</p>
                               </div>
                          </div>
                     </div>
@@ -340,20 +369,12 @@ http://www.tooplate.com/view/2098-health
                     <div class="col-md-4 col-sm-6">
                          <!-- NEWS THUMB -->
                          <div class="news-thumb wow fadeInUp" data-wow-delay="0.8s">
-                              <a href="news-detail.html">
-                                   <img src="images/news-image3.jpg" class="img-responsive" alt="">
+                              <a href="#">
+                                   <img src="images/data.jpg" class="img-responsive" alt="">
                               </a>
                               <div class="news-info">
-                                   <span>January 27, 2018</span>
-                                   <h3><a href="news-detail.html">Review Annual Medical Research</a></h3>
-                                   <p>Vivamus non nulla semper diam cursus maximus. Pellentesque dignissim.</p>
-                                   <div class="author">
-                                        <img src="images/author-image.jpg" class="img-responsive" alt="">
-                                        <div class="author-info">
-                                             <h5>Andrio Abero</h5>
-                                             <p>Online Advertising</p>
-                                        </div>
-                                   </div>
+                                   <h3><a href="#">Teknologi & Sumber Data</a></h3>
+                                   <p>Care Map menggunakan Leaflet + OpenStreetMap. Data klinik memuat nama, alamat, nomor telepon, serta koordinat (latitude/longitude). Jam operasional dapat berubah, disarankan verifikasi.</p>
                               </div>
                          </div>
                     </div>
@@ -369,53 +390,58 @@ http://www.tooplate.com/view/2098-health
                <div class="row">
 
                     <div class="col-md-4 col-sm-4">
-                         <div class="footer-thumb"> 
-                              <h4 class="wow fadeInUp" data-wow-delay="0.4s">Contact Info</h4>
-                              <p>Fusce at libero iaculis, venenatis augue quis, pharetra lorem. Curabitur ut dolor eu elit consequat ultricies.</p>
+                         <div class="footer-thumb">
+                              <h4 class="wow fadeInUp" data-wow-delay="0.4s">Info Proyek</h4>
+                              <p>Care Map membantu pengguna mencari klinik 24 jam di DKI Jakarta, melihat detail, dan membuka rute ke lokasi klinik.</p>
 
                               <div class="contact-info">
-                                   <p><i class="fa fa-phone"></i> 010-070-0170</p>
-                                   <p><i class="fa fa-envelope-o"></i> <a href="#">info@company.com</a></p>
+                                   <p><i class="fa fa-phone"></i> 088211711083</p>
+                                   <p><i class="fa fa-envelope-o"></i> <a href="#">prodi-ti@nurulfikri.ac.id</a></p>
                               </div>
                          </div>
                     </div>
 
-                    <div class="col-md-4 col-sm-4"> 
-                         <div class="footer-thumb"> 
-                              <h4 class="wow fadeInUp" data-wow-delay="0.4s">Latest News</h4>
+                    <div class="col-md-4 col-sm-4">
+                         <div class="footer-thumb">
+                              <h4 class="wow fadeInUp" data-wow-delay="0.4s">Update Aplikasi</h4>
                               <div class="latest-stories">
                                    <div class="stories-image">
-                                        <a href="#"><img src="images/news-image.jpg" class="img-responsive" alt=""></a>
+                                        <a href="#"><img src="images/fitur.jpg" class="img-responsive" alt=""></a>
                                    </div>
                                    <div class="stories-info">
-                                        <a href="#"><h5>Amazing Technology</h5></a>
-                                        <span>March 08, 2018</span>
+                                        <a href="#">
+                                             <h5>Update Dataset Klinik 24 Jam</h5>
+                                        </a>
+                                        <span>Januari 2026</span>
                                    </div>
                               </div>
 
                               <div class="latest-stories">
                                    <div class="stories-image">
-                                        <a href="#"><img src="images/news-image.jpg" class="img-responsive" alt=""></a>
+                                        <a href="#"><img src="images/data.jpg" class="img-responsive" alt=""></a>
                                    </div>
                                    <div class="stories-info">
-                                        <a href="#"><h5>New Healing Process</h5></a>
-                                        <span>February 20, 2018</span>
+                                        <a href="#">
+                                             <h5>Fitur: Filter, Lokasi Saya, & Rute</h5>
+                                        </a>
+                                        <span>Januari 2026</span>
                                    </div>
                               </div>
                          </div>
                     </div>
 
-                    <div class="col-md-4 col-sm-4"> 
+                    <div class="col-md-4 col-sm-4">
                          <div class="footer-thumb">
                               <div class="opening-hours">
-                                   <h4 class="wow fadeInUp" data-wow-delay="0.4s">Opening Hours</h4>
-                                   <p>Monday - Friday <span>06:00 AM - 10:00 PM</span></p>
-                                   <p>Saturday <span>09:00 AM - 08:00 PM</span></p>
-                                   <p>Sunday <span>Closed</span></p>
-                              </div> 
+                                   <h4 class="wow fadeInUp" data-wow-delay="0.4s">Jam Layanan</h4>
+                                   <p>Care Map <span>24 Jam</span></p>
+                                   <p>Pembaruan Data <span>Sesuai Kebutuhan</span></p>
+                                   <p>Catatan <span>Jam Klinik Dapat Berubah</span></p>
+                              </div>
 
                               <ul class="social-icon">
-                                   <li><a href="https://www.facebook.com/tooplate" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+                                   <li><a href="#" class="fa fa-facebook-square"
+                                             attr="facebook icon"></a></li>
                                    <li><a href="#" class="fa fa-twitter"></a></li>
                                    <li><a href="#" class="fa fa-instagram"></a></li>
                               </ul>
@@ -424,14 +450,14 @@ http://www.tooplate.com/view/2098-health
 
                     <div class="col-md-12 col-sm-12 border-top">
                          <div class="col-md-4 col-sm-6">
-                              <div class="copyright-text"> 
-                                   <p>Copyright &copy; 2017 Your Company 
-                                   
-                                   | Design: <a href="http://www.tooplate.com" target="_parent">Tooplate</a></p>
+                              <div class="copyright-text">
+                                   <p>Copyright &copy; 2026 Trinity Queens
+
+                                        | Design: <a href="http://www.tooplate.com" target="_parent">Tooplate</a></p>
                               </div>
                          </div>
                          <div class="col-md-6 col-sm-6">
-                              <div class="footer-link"> 
+                              <div class="footer-link">
                                    <a href="#">Laboratory Tests</a>
                                    <a href="#">Departments</a>
                                    <a href="#">Insurance Policy</a>
@@ -439,12 +465,13 @@ http://www.tooplate.com/view/2098-health
                               </div>
                          </div>
                          <div class="col-md-2 col-sm-2 text-align-center">
-                              <div class="angle-up-btn"> 
-                                  <a href="#top" class="smoothScroll wow fadeInUp" data-wow-delay="1.2s"><i class="fa fa-angle-up"></i></a>
+                              <div class="angle-up-btn">
+                                   <a href="#top" class="smoothScroll wow fadeInUp" data-wow-delay="1.2s"><i
+                                             class="fa fa-angle-up"></i></a>
                               </div>
-                         </div>   
+                         </div>
                     </div>
-                    
+
                </div>
           </div>
      </footer>
@@ -458,6 +485,10 @@ http://www.tooplate.com/view/2098-health
      <script src="js/smoothscroll.js"></script>
      <script src="js/owl.carousel.min.js"></script>
      <script src="js/custom.js"></script>
+     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+     <script src="js/webgis-klinik.js"></script>
+
 
 </body>
+
 </html>
